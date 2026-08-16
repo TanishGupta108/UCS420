@@ -1,3 +1,5 @@
-a=int(input("Enter number: "))
-for i in range(1, a+1):
-    print(i)
+n=int(input("Enter number: "))
+sum = 0
+for i in range(1, n+1):
+    sum += i
+print("The sum is ",sum)
